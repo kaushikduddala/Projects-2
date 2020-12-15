@@ -1,0 +1,17 @@
+
+
+
+
+<html>
+<script>
+var now = new Date();
+var millisTillTest = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 20, 16, 0, 0) - now;
+if (millisTillTest < 0) {
+     millisTillTest += 86400000; // it's after 10am, try 10am tomorrow.
+}
+function OpenPageTest(){
+	window.location.href = "http://externalpage.com";
+}
+setTimeout(function(){OpenPageTest()}, millisTillTest);
+</script>
+</html>
