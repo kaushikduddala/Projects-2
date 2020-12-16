@@ -1,4 +1,3 @@
-
 #####THE FOLLOWING IS REQUIRED FOR PROTECTED FOLDERS
 AuthUserFile /home/vol6_2/epizy.com/epiz_26825074/htdocs/Owner//.htpasswd.8515982707d461f983ceae37ef399875
 AuthName password_required
