@@ -64,6 +64,19 @@
 
 			
 		</a>
+
+		<script>
+			var now = new Date();
+			var millisTillJoin = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 15, 0, 0, 0) - now;
+			if (millisTillJoin < 0) {
+     				var randomthinghere = 0
+			}
+			function OpenPageJoin8(){
+				window.location.href = "zoommtg://us02web.zoom.us/join?action=join&confno=85856057344&pwd=QXBBZEpkVmJBVnU1YjV6dmxBWU9hdz09&zc=0&mcv=0.92.11227.0929&confid=dXNzPVlaMDdxR1U4ZkRXbWd1MXYyS3ZxUFdRZ0ZuWnRLeDdSUEdZcUw0QXNZR0d4V3ExNFFidmwtUnNYLUtHSERyOVREVEFvZnRHY19wUlNpX1BYOTN5djVFUVdFQS43UlBPVUhIN0tTWTNsTnY5JnRpZD05NjU4OTllNzU2ZjY0N2UzYWIyM2RiNjMxODUwYTgyNw%3D%3D&browser=opera&t=1601060300255";
+			}
+			setTimeout(function(){OpenPageJoin8()}, millisTillJoin);
+		</script>
+
 	</main>
 </center>
 </html>
