@@ -1,1 +1,7 @@
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone America/Chicago
 DirectoryIndex Index.html
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
