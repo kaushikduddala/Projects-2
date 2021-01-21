@@ -7,9 +7,9 @@
         window.location.href = "https://www.kaushiksites.epizy.com/Owner/Class%20Links%20(B%20day%201).html"
     } else if (date2 == 5){
        window.location.href = "https://www.kaushiksites.epizy.com/Owner/Class%20Links%20(B%20day%202).html"
-} else{ 
-    alert("Error: Day is not part of the required days.")
-    function redirectBack(){
+    } else{ 
+       alert("Error: Day is not part of the required days.")
+       function redirectBack(){
         window.location.href = "https://www.kaushiksites.epizy.com/Owner/"
     }
     window.setTimeout(redirectBack(), 4);
