@@ -1,4 +1,3 @@
-@echo off
-ncftp
-echo open Ye
-echo mput -R htdocs
+
+open Ye
+mput -R htdocs
