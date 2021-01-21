@@ -9,7 +9,7 @@ if (date2 == 1 || date2 == 2 || date2 == 3){
 } else{ 
     alert("Error: Day is not part of the required days.")
     function redirectBack(){
-        
+        window.location.href = 
     }
     window.setTimeout(redirectBack, seconds);
 }
