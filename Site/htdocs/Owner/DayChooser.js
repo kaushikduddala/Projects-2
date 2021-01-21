@@ -11,6 +11,6 @@ if (date2 == 1 || date2 == 2 || date2 == 3){
     function redirectBack(){
         window.location.href = "https://www.kaushiksites.epizy.com/Owner/"
     }
-    window.setTimeout(redirectBack, seconds);
+    window.setTimeout(redirectBack, 4);
 }
     
