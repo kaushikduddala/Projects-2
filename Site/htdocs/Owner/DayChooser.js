@@ -5,6 +5,6 @@ if (date2 > 0 && date2 < 4){
 } else if (date2 == 4){
     window.location.href = "https://www.kaushiksites.epizy.com/Owner/Class%20Links%20(B%20day%201).html"
 } else if (date2 == 5){
-    window.location.href = 
+    window.location.href = ""
 }
     
