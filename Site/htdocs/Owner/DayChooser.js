@@ -8,7 +8,7 @@ if (date2 == 1 || date2 == 2 || date2 == 3){
     window.location.href = "https://www.kaushiksites.epizy.com/Owner/Class%20Links%20(B%20day%202).html"
 } else{ 
     alert("Error: Day is not part of the required days.")
-    function 
+    function redirectBack
     window.setTimeout(redirectBack, seconds);
 }
     
