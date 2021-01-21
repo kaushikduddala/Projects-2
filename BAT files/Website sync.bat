@@ -1,2 +1,0 @@
-
-mput -R htdocs
