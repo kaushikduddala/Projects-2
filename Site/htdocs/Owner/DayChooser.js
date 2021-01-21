@@ -1,1 +1,2 @@
-date1 = 
+date1 = new Date()
+date2 = 
