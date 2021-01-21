@@ -10,8 +10,8 @@
     } else{ 
        alert("Error: Day is not part of the required days.")
        function redirectBack(){
-        window.location.href = "https://www.kaushiksites.epizy.com/Owner/"
+           window.location.href = "https://www.kaushiksites.epizy.com/Owner/"
+       }
+       window.setTimeout(redirectBack(), 4);
     }
-    window.setTimeout(redirectBack(), 4);
-}
 </script>
