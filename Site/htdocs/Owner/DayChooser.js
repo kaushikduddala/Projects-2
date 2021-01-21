@@ -14,4 +14,4 @@ if (date2 == 1 || date2 == 2 || date2 == 3){ //detects if its A day (monday )
     }
     window.setTimeout(redirectBack(), 4);
 }
-<script></script>    
+</script>
