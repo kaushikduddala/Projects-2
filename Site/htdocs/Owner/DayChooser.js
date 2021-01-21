@@ -13,5 +13,5 @@
            window.location.href = "https://www.kaushiksites.epizy.com/Owner/"
        }
        window.setTimeout(redirectBack(), 4);
-    }   
+        }
 </script>
