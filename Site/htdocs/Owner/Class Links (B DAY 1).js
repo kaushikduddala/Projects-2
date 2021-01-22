@@ -9,4 +9,4 @@ function autoOpen(Hour, Minute, Number, _link6){ //Sets the function with the va
         Number = 86400000 // sets it to a day so that it wont open and will take enough time to reloa and keep delaying it
     } //closing
     }
-    setTimeout(() => {window.location.href = link6; }, Number); }
+    setTimeout(() => {window.location.href = _link6; }, Number); }
