@@ -1,4 +1,4 @@
-format = []
+format = [class, startTime, endTIme]
 class1 = []
 class2 = []
 class3 = []
