@@ -8,5 +8,4 @@ function autoOpen(Hour, Minute, Number, _link6){ //Sets the function with the va
     if (Number <= 0){  //if its below 0
         Number = 86400000 // sets it to a day so that it wont open and will take enough time to reloa and keep delaying it
     } //closing
-    }
     setTimeout(() => {window.location.href = _link6; }, Number); }
