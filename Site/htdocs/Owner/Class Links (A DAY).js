@@ -3,7 +3,7 @@ function reloadPage() { //setting reload function (for reloading for better resu
 setTimeout(() => {reloadPage(); }, 1800000); //sets timeout for 1 day
 var now = new Date(); //sets 'now' as the current date + time
 var millisTillJoin1 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 25, 0, 0) - now; //sets the time wanted - the time currently
-if (millisTillJoin1 <= 0){ //if its in the past (error before when it would open all past ones and )
+if (millisTillJoin1 <= 0){ //if its in the past (error before when it would open all past ones)
     millisTillJoin1 = 86400000
 }
 function OpenPageJoin1(){
