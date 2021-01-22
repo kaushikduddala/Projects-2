@@ -1,4 +1,4 @@
-format = ['teacher', 'startTime', 'endTIme']
+format = ['teacher', 'startTime', 'endTIme', '']
 links = []
 class1 = []
 class2 = []
