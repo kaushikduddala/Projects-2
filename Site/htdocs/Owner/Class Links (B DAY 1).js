@@ -4,7 +4,7 @@ function reloadPage() { //setting reload function (for reloading for better resu
 setTimeout(() => {reloadPage(); }, 1800000); //sets timeout for some time
 function autoOpen(Hour, Minute, Number, link){ //Sets the function with the variables that change
     var now = new Date();
-    var Number = new Date(now.getFullYear(), now.getMonth(), now.getDate(), Hour, Minute, 0, 0) - now; // The requested time - the current time = the 
+    var Number = new Date(now.getFullYear(), now.getMonth(), now.getDate(), Hour, Minute, 0, 0) - now; // The requested time - the current time = the time till 
     if (Number <= 0){
         Number = 86400000
     }
