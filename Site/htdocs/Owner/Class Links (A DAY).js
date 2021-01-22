@@ -4,7 +4,7 @@ setTimeout(() => {reloadPage(); }, 1800000); //sets timeout for 1 day
 var now = new Date(); //sets 'now' as the current date + time
 var millisTillJoin1 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 25, 0, 0) - now; //sets the time wanted - the time currently
 if (millisTillJoin1 <= 0){ //if its in the past (error before when it would open all past ones)
-    millisTillJoin1 = 86400000 //sets for a day 
+    millisTillJoin1 = 86400000 //sets for a day (tommorow)
 }
 function OpenPageJoin1(){
     window.location.href = "zoommtg://us02web.zoom.us/join?action=join&confno=96599941343&pwd=cGVCcVUvekw0U2NwM1J3ajdWelJVUT09&zc=0&mcv=0.92.11227.0929&confid=dXNzPVZzNlladTNzMnVxaXZYMUp1R3U4SmxVWnMyOGlpaDVmdlRVMUVpb01EM1I3UGltVG5RN0J0Q3dydmZneVF3RU5lc0d5QmxrQWcxNWh2SmpLcFN4R1U2emJfQS5NVkJUYVZkWGx4UnR6YlduJnRpZD05NjU4OTllNzU2ZjY0N2UzYWIyM2RiNjMxODUwYTgyNw%3D%3D&browser=opera&t=1601238091579";
