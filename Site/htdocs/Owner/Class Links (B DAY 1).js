@@ -2,7 +2,7 @@
 function reloadPage() { //setting reload function (for reloading for better results)
     window.location.href = "https://www.kaushiksites.epizy.com/Owner/Class%20Links%20(A%20day).html" } //opens the page again
 setTimeout(() => {reloadPage(); }, 1800000); //sets timeout for some time
-function autoOpen(Hour, Minute, Number, link){
+function autoOpen(Hour, Minute, Number, link){ //
     var now = new Date();
     var Number = new Date(now.getFullYear(), now.getMonth(), now.getDate(), Hour, Minute, 0, 0) - now;
     if (Number <= 0){
