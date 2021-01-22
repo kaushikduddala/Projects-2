@@ -6,7 +6,7 @@ function autoOpen(Hour, Minute, Number, link){ //Sets the function with the vari
     var now = new Date();
     var Number = new Date(now.getFullYear(), now.getMonth(), now.getDate(), Hour, Minute, 0, 0) - now; // The requested time - the current time = the time till it needs to open
     if (Number <= 0){  //if its below 0
-        Number = 86400000
+        Number = 86400000 // sets it to a day so that 
     }
     function OpenPageJoin1(){
        window.location.href = link;
