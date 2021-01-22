@@ -10,5 +10,5 @@ class8 = []
 class9 = []
 masterArray = []
 for (var i = 1; i > 10; i++){
-    $("main").append("<a href = " + "">" + "<h1>" + masterArray[i][0] + masterArray[i][1] + masterArray[i][2] + masterArray[i][3] +"<h1></a>")
+    $("main").append("<a href = " + ">" + "<h1>" + masterArray[i][0] + masterArray[i][1] + masterArray[i][2] + masterArray[i][3] +"<h1></a>")
 }
