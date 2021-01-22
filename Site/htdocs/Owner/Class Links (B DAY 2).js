@@ -11,5 +11,5 @@ function autoOpen(Hour, Minute, Number, link){ //Sets the function with the vari
     setTimeout(() => {window.location.href = link; }, Number); //sets timeout to open link (Not zoom link but a app link which links directly to the zoom app instead of opening a new tab which is found in the console of the zoom page after it tries top open zoom) 
 } //closing function
 autoOpen(8, 25, 1, "zoommtg://us02web.zoom.us/join?action=join&confno=4766955166&pwd=Z1F5OFRkY3hBcWpSaHpzRFpTbGxhQT09&zc=0&mcv=0.92.11227.0929&confid=dXNzPUxBdmF4NHR3VHFTMEFUejNQTEluTllHQkZvb2lKb1NVQkRLMzBXVFZFaTJxUWVTdHU3UmtYcENjWVRSNjNhc3hDMnBTOXloeDRIc2ZaVFRieERfOUJGbFEueC1KTW4yZS0waDdQN09ZUSZ0aWQ9OTY1ODk5ZTc1NmY2NDdlM2FiMjNkYjYzMTg1MGE4Mjc%3D&browser=opera&t=1601059272231")
-autoOpen(9, 59, 2, "zoommtg://us02web.zoom.us/join?action=join&confno=89035798132&pwd=K2JDUjlzZFN5bXJEbk9nbi9XaTRidz09&zc=0&mcv=0.92.11227.0929&confid=dXNzPWlwM1A4WEFyVW5wWWJadGwyR3ktbVM5aTZEWV9hb1c4ZkVuTXlDQVEwMmF1WW9aenJwQ3NDNTNiN21fYnJNREFEZ203bmY3NjRtTjJGbjBCZ0N5ZEJqejh3Zy43MHJHQ29XSzFIODVTZE5jJnRpZD05NjU4OTllNzU2ZjY0N2UzYWIyM2RiNjMxODUwYTgyNw%3D%3D&browser=opera&t=1601046028402"
-)
+autoOpen(9, 59, 2, "zoommtg://us02web.zoom.us/join?action=join&confno=89035798132&pwd=K2JDUjlzZFN5bXJEbk9nbi9XaTRidz09&zc=0&mcv=0.92.11227.0929&confid=dXNzPWlwM1A4WEFyVW5wWWJadGwyR3ktbVM5aTZEWV9hb1c4ZkVuTXlDQVEwMmF1WW9aenJwQ3NDNTNiN21fYnJNREFEZ203bmY3NjRtTjJGbjBCZ0N5ZEJqejh3Zy43MHJHQ29XSzFIODVTZE5jJnRpZD05NjU4OTllNzU2ZjY0N2UzYWIyM2RiNjMxODUwYTgyNw%3D%3D&browser=opera&t=1601046028402")
+autoOpen()
