@@ -46,3 +46,12 @@ function OpenPageJoin5(){
     window.location.href = "zoommtg://us02web.zoom.us/join?action=join&confno=4221470740&pwd=cFpXemZHMzJwcmJuM1Mzd2hkZXFsQT09&zc=0&mcv=0.92.11227.0929&confid=dXNzPUkxR0hMbnlEeHczcEw2b1owRzhNSmk0czBNTnNkT3lxNG5LS1hmTXQyWmR3bUpudlkzckpSc3h0cmdxWVhXUk9lNFFFWWtkTGFqZVItY3dMaXJrV0NlNEkuSVQzT25QYU1fcXBTWnNhQSZ0aWQ9OTY1ODk5ZTc1NmY2NDdlM2FiMjNkYjYzMTg1MGE4Mjc%3D&browser=opera&t=1601059772214";
 }
 setTimeout(() => {OpenPageJoin5(); }, millisTillJoin5);
+var now = new Date();
+var millisTillJoin6 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 12, 50, 0, 0) - now;
+if (millisTillJoin6 <= 0) {
+    millisTillJoin6 = 86400000	
+}
+function OpenPageJoin6(){
+    window.location.href = "zoommtg://zoom.us/join?action=join&confno=81460838057&pwd=N0RvU21JaHUwcmRRNStPVUpxK2NQZz09&zc=0&mcv=0.92.11227.0929&confid=dXNzPUVTN281ckZFRjlwcEdjcUVpTHRXb3hHUHFCdjY1d1puT1VCZ2F0aXhIZ2VrSExqSXpKM2oxZGEydVVPeEVoNkNFZFd2ZlhZYjlYVVZxSWcuZ2lKN3NSRm5VVzcwMzNaRiZ0aWQ9OTY1ODk5ZTc1NmY2NDdlM2FiMjNkYjYzMTg1MGE4Mjc%3D&browser=opera&t=1601059976555";
+}
+setTimeout(() => {OpenPageJoin6(); }, millisTillJoin6);
