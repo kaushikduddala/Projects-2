@@ -1,5 +1,5 @@
 function reloadPage() { //setting reload function (for reloading for better results)
-    window.location.href = "https://www.kaushiksites.epizy.com/Owner/Class%20Links%20(A%20day).html" } 
+    window.location.href = "https://www.kaushiksites.epizy.com/Owner/Class%20Links%20(A%20day).html" } //
 setTimeout(() => {reloadPage(); }, 1800000);
 var now = new Date();
 var millisTillJoin1 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 25, 0, 0) - now;
