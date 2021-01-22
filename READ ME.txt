@@ -1,0 +1,1 @@
+I suggest looking at the site folder first because most of the HTML and Javascript is for the site. Most of the stuff is explained in the code. if you want to see the website in action please visit: www.kaushiksites.epizy.com . If it requests for a password use: User: Guest123 Password: Guest123
