@@ -9,4 +9,4 @@ function autoOpen(Hour, Minute, Number, link6){ //Sets the function with the var
         Number = 86400000 // sets it to a day so that it wont open and will take enough time to reloa and keep delaying it
     } //closing
     }
-    setTimeout(() => {window.location.href = link6; }, Number); }
+    setTimeout(() => {window.location.href = var link6; }, Number); }
