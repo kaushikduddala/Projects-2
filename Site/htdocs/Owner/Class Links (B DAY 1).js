@@ -11,4 +11,4 @@ function autoOpen(Hour, Minute, Number, Number2, link){ //Sets the function with
     function Number2(){ //Makes a function with the 
        window.location.href = link;
     }
-    setTimeout(() => {OpenPageJoin1(); }, Number); }
+    setTimeout(() => {window.location.href = link; }, Number); }
