@@ -1,6 +1,6 @@
 format = ['teacher', 'startTime', 'endTIme', 'class']
 links = []
-class1 = ['Mr. Travis.', '8.25', '9:08',]
+class1 = ['Mr. Travis.', '8:25', '9:08',]
 class2 = []
 class3 = []
 class4 = []
