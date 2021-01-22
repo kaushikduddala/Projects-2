@@ -28,4 +28,4 @@ courses = [
 
 @app.route("/schedule")
 def class_schedule():
-    return render_template("schedule.html", courses=courses)
+    return render_template("Class Links (A day).html", courses=courses)
