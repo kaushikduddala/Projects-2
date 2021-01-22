@@ -13,6 +13,7 @@ function OpenPageJoin1(){ //join for timeout later
 setTimeout(() => {OpenPageJoin1(); }, millisTillJoin1); //setting timeout to open
 
 // everything past here is pretty much repetion of whats above (without the reload) but the links change and so do the times and function names
+
 var now = new Date();
 var millisTillJoin2 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 9, 12, 0, 0) - now;
 if (millisTillJoin2 <= 0) {
