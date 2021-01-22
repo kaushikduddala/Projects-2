@@ -4,7 +4,7 @@ function reloadPage() { //setting reload function (for reloading for better resu
 setTimeout(() => {reloadPage(); }, 1800000); //sets timeout for some time
 function autoOpen(Hour, Minute, Number, link){
     var now = new Date();
-    var millisTillJoin1 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 8, 25, 0, 0) - now;
+    var millisTillJoin1 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), , 25, 0, 0) - now;
     if (millisTillJoin1 <= 0){
         millisTillJoin1 = 86400000
     }
