@@ -5,7 +5,7 @@ setTimeout(() => {reloadPage(); }, 1800000); //sets timeout for some time
 function autoOpen(Hour, Minute, Number, link){ //Sets the function with the variables that change
     var now = new Date();
     var Number = new Date(now.getFullYear(), now.getMonth(), now.getDate(), Hour, Minute, 0, 0) - now; // The requested time - the current time = the time till it needs to open
-    if (Number <= 0){
+    if (Number <= 0){  //if its below 
         Number = 86400000
     }
     function OpenPageJoin1(){
