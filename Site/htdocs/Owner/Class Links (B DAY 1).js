@@ -9,6 +9,6 @@ function autoOpen(Hour, Minute, Number, link){
         Number = 86400000
     }
     function OpenPageJoin1(){
-       window.location.href = "Link";
+       window.location.href = link;
     }
     setTimeout(() => {OpenPageJoin1(); }, Number); }
