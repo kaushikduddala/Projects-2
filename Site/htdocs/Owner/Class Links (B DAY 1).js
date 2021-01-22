@@ -8,7 +8,7 @@ function autoOpen(Hour, Minute, Number, Number2, link){ //Sets the function with
     if (Number <= 0){  //if its below 0
         Number = 86400000 // sets it to a day so that it wont open and will take enough time to reloa and keep delaying it
     } //closing
-    function OpenPageJoin1(){ //
+    function Number2(){ //
        window.location.href = link;
     }
     setTimeout(() => {OpenPageJoin1(); }, Number); }
