@@ -10,4 +10,4 @@ function autoOpen(Hour, Minute, Number, link){ //Sets the function with the vari
     } //closing
     setTimeout(() => {window.location.href = link; }, Number); //sets timeout to open link (Not zoom link but a app link which links directly to the zoom app instead of opening a new tab which is found in the console of the zoom page after it tries top open zoom) 
 } //closing function
-autoOpen(8, )
+autoOpen(8, 25, 1, )
