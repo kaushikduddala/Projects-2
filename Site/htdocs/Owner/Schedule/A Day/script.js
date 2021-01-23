@@ -9,5 +9,5 @@ class7 = ['Coach Green', '2:13', '2:59', 'PE.'] //class 7
 class8 = ['Ms. Kitchens', '3:00', '3:45', 'Science.'] //class 8
 masterArray = [class1, class2, class3, class4, class5, class6, class7, class8] //master array to put all arrays into one 
 for (var i = 1; i < 9; i++){ //basically while i < 9 (1-8 since i have 8 classes and adds one each time link a counter) 
-  /* */  $("main").append("<a href = " + links[i] +">" + "<h3>" + masterArray[i][0] + masterArray[i][1] + masterArray[i][2] + masterArray[i][3] +"<h3>" + "</a>" + "<div style='line-height:5%;'>" + "<br>"+  "</div>")
+  /*lines kinda long so ill just say here that it uses jquery and writes  */  $("main").append("<a href = " + links[i] +">" + "<h3>" + masterArray[i][0] + masterArray[i][1] + masterArray[i][2] + masterArray[i][3] +"<h3>" + "</a>" + "<div style='line-height:5%;'>" + "<br>"+  "</div>")
 }
