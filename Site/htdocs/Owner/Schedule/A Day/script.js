@@ -2,9 +2,9 @@
 class1 = ['Mr. Travis.', '8:25 ', '9:08. ', ' Social Studies.'] //class 1
 class2 = ['Mr. Daniel. ', '9:12', '9:55. ', ' Academy Connect.' ] //class 2
 class3 = ['Ms. Watts. ', '9:59 ', '11:29.', ' GT ILA.'] //class 3
-class4 = ['Mr. Holzer. ', '12:03 ', '12:49.', 'Band(1). ']
-class5 = ['Mr. Mckellar', '12:03', '12:49', 'Band(2). ']
-class6 = ['Ms. Boeke', '12:50', '1:33', '7th PAP math. ']
+class4 = ['Mr. Holzer. ', '12:03 ', '12:49.', 'Band(1). '] //class 4
+class5 = ['Mr. Mckellar', '12:03', '12:49', 'Band(2). '] //class 5
+class6 = ['Ms. Boeke', '12:50', '1:33', '7th PAP math. '] //class 
 class7 = ['Coach Green', '2:13', '2:59', 'PE.']
 class8 = ['Ms. Kitchens', '3:00', '3:45', 'Science.']
 masterArray = [class1, class2, class3, class4, class5, class6, class7, class8]
