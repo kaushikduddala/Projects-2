@@ -5,4 +5,4 @@ AuthName password_required
 AuthType Basic
 Require valid-user
 ########END REQUIRE
-DirectoryIndex index.php index.html index.htm index2.html index.py
+DirectoryIndex index.html Index.html
