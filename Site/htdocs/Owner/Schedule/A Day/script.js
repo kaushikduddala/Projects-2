@@ -1,5 +1,5 @@
 /* this is line is really long so i'll just explain it here. So this is all the links in order and its takes later on by the <a href => to give the links in order  */ links = []
-class1 = ['Mr. Travis.', '8:25 ', '9:08. ', ' Social Studies.']
+class1 = ['Mr. Travis.', '8:25 ', '9:08. ', ' Social Studies.'] //class 1
 class2 = ['Mr. Daniel. ', '9:12', '9:55. ', ' Academy Connect.' ]
 class3 = ['Ms. Watts. ', '9:59 ', '11:29.', ' GT ILA.']
 class4 = ['Mr. Holzer. ', '12:03 ', '12:49.', 'Band(1). ']
