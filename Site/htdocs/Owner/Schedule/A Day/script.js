@@ -1,4 +1,4 @@
-format = ['teacher', 'startTime', 'endTIme', 'class'] //format of most arrays 
+format = ['teacher', 'startTime', 'endTIme', 'class'] //format of most arrays just for self-referance
 /*   */ links = []
 class1 = ['Mr. Travis.', '8:25 ', '9:08. ', ' Social Studies.']
 class2 = ['Mr. Daniel. ', '9:12', '9:55. ', ' Academy Connect.' ]
