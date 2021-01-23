@@ -10,5 +10,5 @@ class7 = ['Coach Green', '2:13', '2:59', 'PE.']
 class8 = ['Ms. Kitchens', '3:00', '3:45', 'Science.']
 masterArray = [class1, class2, class3, class4, class5, class6, class7, class8]
 for (var i = 1; i < 9; i++){
-    $("main").append("<a href = " + links[i] +">" + "<h1>" + masterArray[i][0] + masterArray[i][1] + masterArray[i][2] + masterArray[i][3] +"<h4></a><br>")
+    $("main").append("<a href = " + links[i] +">" + "<h4>" + masterArray[i][0] + masterArray[i][1] + masterArray[i][2] + masterArray[i][3] +"<h4></a><br>")
 }
