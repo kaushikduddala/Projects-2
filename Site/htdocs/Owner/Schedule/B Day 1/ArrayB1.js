@@ -2,7 +2,7 @@
 class1 = ['Mr. Travis.', '8:25', '9:59. ', ' Social Studies.'] //class 1
 class2 = ['Ms. Watts. ', '9:59', '11:29. ', ' GT ILA.'] //class 3
 class3 = ['Mr. Holzer. ', '12:03 ', '1:33. ', 'Band(1). '] //class 4
-class4 = ['Mr. Mckellar. ', '12:03', '12:49. ', 'Band(2). '] //class 5
+class4 = ['Mr. Mckellar. ', '12:03', '1;. ', 'Band(2). '] //class 5
 class5 = ['Coach Green. ', '2:13', '2:59. ', 'PE.'] //class 7
 masterArray = [class1, class2, class3, class4, class5] //master array to put all arrays into one 
 for (var i = 0; i < 6; i++){ //basically while i < 9 (1-8 since i have 8 classes and adds one each time link a counter) 
