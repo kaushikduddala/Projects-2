@@ -1,1 +1,0 @@
-These are mainly meant for my website and they are in HTML files since they cant be run as js files
